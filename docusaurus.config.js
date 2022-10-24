@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Rajdave69/akhlaquna-project/edit/main/',
 
         },
 
@@ -59,7 +59,7 @@ const config = {
       },
 
       navbar: {
-        title: 'My Site',
+        title: 'CyberSecurity Blog',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -117,7 +117,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CyberSecurity Blog, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
