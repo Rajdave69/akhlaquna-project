@@ -9,7 +9,7 @@ const config = {
   title: 'CyberSecurity Blog',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/akhlakuna/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -68,7 +68,7 @@ const config = {
 
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rajdave69/akhlaquna-project',
             label: 'GitHub',
             position: 'right',
           },
@@ -78,17 +78,17 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Blog',
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/blog/',
               },
             ],
           },
           {
             title: 'Community',
-            items: [
+            items: [/*
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
@@ -101,11 +101,12 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
               },
+            */
             ],
           },
           {
             title: 'More',
-            items: [
+            items: [ /*
               {
                 label: 'Blog',
                 to: '/blog',
@@ -114,6 +115,7 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
+            */
             ],
           },
         ],
